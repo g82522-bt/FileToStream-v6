@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: true-stream-v6
+    env: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: python app.py
+    envVars:
+      - key: PORT
+        value: 10000
