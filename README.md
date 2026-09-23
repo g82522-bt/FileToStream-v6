@@ -9,7 +9,7 @@ V8 keeps the existing Prime/payment behavior and webhook architecture.
 - `/help` remains in the Chat Menu.
 - Prime status logic is otherwise kept unchanged from V7.
 
-## Render
+# Render
 Start command: `python app.py`
 
 Keep all secrets in Render environment variables. Do not commit `.env` or Telegram session files.
